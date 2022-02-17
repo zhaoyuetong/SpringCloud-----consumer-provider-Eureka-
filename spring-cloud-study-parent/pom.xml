@@ -13,6 +13,7 @@
         <module>spring-cloud-study-consumer</module>
         <module>spring-cloud-study-eureka</module>
         <module>spring-cloud-study-feign-consumer</module>
+        <module>spring-cloud-study-hystrix-dashboard</module>
     </modules>
     <packaging>pom</packaging>
     <dependencyManagement>

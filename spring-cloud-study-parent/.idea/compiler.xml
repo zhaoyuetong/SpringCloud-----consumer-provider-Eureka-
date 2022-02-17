@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-cloud-study-consumer" />
-        <module name="spring-cloud-study-feign-consumer" />
+        <module name="spring-cloud-study-common" />
         <module name="spring-cloud-study-provider" />
         <module name="spring-cloud-study-eureka" />
-        <module name="spring-cloud-study-common" />
+        <module name="spring-cloud-study-consumer" />
+        <module name="spring-cloud-study-feign-consumer" />
+        <module name="spring-cloud-study-hystrix-dashboard" />
       </profile>
     </annotationProcessing>
   </component>
