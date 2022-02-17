@@ -11,6 +11,7 @@
         <module name="spring-cloud-study-eureka" />
         <module name="spring-cloud-study-consumer" />
         <module name="spring-cloud-study-feign-consumer" />
+        <module name="spring-cloud-study-zuul" />
         <module name="spring-cloud-study-hystrix-dashboard" />
       </profile>
     </annotationProcessing>
