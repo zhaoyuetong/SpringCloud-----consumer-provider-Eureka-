@@ -2,6 +2,7 @@ package com.study.spring.cloud.hander;
 
 import com.study.spring.cloud.entity.Employee;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
@@ -12,5 +13,10 @@ public class EmployeeHander {
     public Employee getEmployeeRemote(HttpServletRequest request) {
         int port = request.getServerPort();
         return new Employee(555, "tom555"+port, 555.55);
+    }
+
+    @RequestMapping("/provider/get/employee/by/id")
+    public Employee getEmployeeById(@RequestParam("empId") Integer empId) {
+        return new Employee(empId, "tom999-", 999.99);
     }
 }
